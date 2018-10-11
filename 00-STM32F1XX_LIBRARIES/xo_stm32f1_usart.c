@@ -38,9 +38,9 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "h_stm32f1_usart.h"
+#include "xo_stm32f1_usart.h"
 
-#include "h_stm32f1_gpio.h"
+#include "xo_stm32f1_gpio.h"
 
 /* USER CODE BEGIN 0 */
 

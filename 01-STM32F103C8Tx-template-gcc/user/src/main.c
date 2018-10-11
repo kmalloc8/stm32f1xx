@@ -39,9 +39,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f1xx_hal.h"
-#include "h_stm32f1_i2c.h"
-#include "h_stm32f1_usart.h"
-#include "h_stm32f1_gpio.h"
+#include "xo_stm32f1_i2c.h"
+#include "xo_stm32f1_usart.h"
+#include "xo_stm32f1_gpio.h"
 
 /* USER CODE BEGIN Includes */
 

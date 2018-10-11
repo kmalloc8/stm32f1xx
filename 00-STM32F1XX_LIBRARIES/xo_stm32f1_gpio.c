@@ -38,7 +38,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "h_stm32f1_gpio.h"
+#include "xo_stm32f1_gpio.h"
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */

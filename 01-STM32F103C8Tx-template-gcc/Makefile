@@ -51,9 +51,9 @@ USER_SOURCES =  \
 # Custom drivers source
 ######################################
 DRIVER_SOURCES += \
-	$(DRIVERS_DIR)/custom/src/h_stm32f1_gpio.c \
-	$(DRIVERS_DIR)/custom/src/h_stm32f1_i2c.c \
-	$(DRIVERS_DIR)/custom/src/h_stm32f1_usart.c
+	$(DRIVERS_DIR)/xo_drivers/xo_stm32f1_gpio.c \
+	$(DRIVERS_DIR)/xo_drivers/xo_stm32f1_i2c.c \
+	$(DRIVERS_DIR)/xo_drivers/xo_stm32f1_usart.c
 	
 ######################################
 # ST Standard drivers sources
@@ -131,7 +131,7 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 	-I$(USER_DIR)/include \
-	-I$(DRIVERS_DIR)/custom/include \
+	-I$(DRIVERS_DIR)/xo_drivers \
 	-I$(DRIVERS_DIR)/STM32F1xx_HAL_Driver/Inc \
 	-I$(DRIVERS_DIR)/STM32F1xx_HAL_Driver/Inc/Legacy \
 	-I$(DRIVERS_DIR)/CMSIS/Device/ST/STM32F1xx/Include \
